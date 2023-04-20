@@ -1,1 +1,1 @@
-Powershell.exe -executionpolicy remotesigned -File "%cd%\launcher.ps1" 
+Powershell.exe -executionpolicy remotesigned -File "%~dp0\launcher.ps1" 
