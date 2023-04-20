@@ -6,15 +6,15 @@
 
 # Application link. For example picked Steam: CoD Modern Warfare II
 # You can find the path by looking at the shortcut property of the application you need
-$configApplicationPath = "steam://rungameid/1938090"
+$configApplicationPath = $args[0]
 
 # Locale region pattern to avoid creating a fallback locale
 # Value examples: en (English: en-US, en-GB), - (leave the value blank if you need a locale without a region (such as uk, ru))
-$configLocalePattern = "en"
+$configLocalePattern = $args[1]
 
 # The locale that will be added to the system if there is no existing one
 # Value examples: en-US (English), de-DE (German), uk (Ukranian), ru (Russian)
-$configFallbackLocale = "en-US"
+$configFallbackLocale = $args[2]
 
 
 ####
